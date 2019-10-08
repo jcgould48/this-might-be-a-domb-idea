@@ -12,5 +12,18 @@ item13.style.opacity = '.5'
 const item3 = document.querySelector('#item-3');
 item3.innerText= 'I say, "Hi!"'
 
-const image = document.querySelector('img');
-image.createElement("http://www.tioxic.com/wp-content/uploads/trex_4.jpg");
+const grabImage = document.querySelector('img')
+grabImage.src ='http://www.tioxic.com/wp-content/uploads/trex_4.jpg'
+grabImage.style.height = '300px'
+const newImage = document.createElement('img')
+newImage.src = 'http://www.tioxic.com/wp-content/uploads/trex_4.jpg'
+newImage.style.height = '300px'
+newImage.style.padding = '50px'
+const div = document.querySelector("div");                 
+div.appendChild(newImage)
+
+const li16 = document.querySelector('li')
+li16.innerText = "I won't be fooled again"
+const ul = document.querySelector('li');
+li.appendChild(li16) 
+
