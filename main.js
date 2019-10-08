@@ -22,8 +22,10 @@ newImage.style.padding = '50px'
 const div = document.querySelector("div");                 
 div.appendChild(newImage)
 
-const li16 = document.querySelector('li')
-li16.innerText = "I won't be fooled again"
-const ul = document.querySelector('li');
-li.appendChild(li16) 
+const li16 = document.createElement('li');
+li16.class = 'item';
+li16.id= 'item-16';
+li16.innerText = "I won't be fooled again";
+const list = document.querySelector('ul');
+list.appendChild(li16); 
 
